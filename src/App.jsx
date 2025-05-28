@@ -9,6 +9,7 @@ import Tech from "./pages/Tech";
 import Projects from "./pages/Projects";
 import Footer from "./pages/Footer";
 import ScrollToTop from "react-scroll-to-top";
+import VanishingInput from "./pages/VanishingInput";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Sidebar className="bg-gradient-to-r  from-gray-100 to-gray-300" />
 
       <Section className="" />
+      {/* <VanishingInput/> */}
       <About className="" />
 
       <Education className="" />
@@ -24,6 +26,7 @@ function App() {
 
       <Projects className="" />
       <Contact className="" />
+
       <Footer />
 
       <ScrollToTop

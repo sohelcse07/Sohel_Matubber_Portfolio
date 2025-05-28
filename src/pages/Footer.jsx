@@ -1,36 +1,65 @@
-import Gmail from "../imgs/gmail.png";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
+import { HiMail } from "react-icons/hi";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const name = "Redwan Ahmed";
 
   return (
-    <div className="w-full h-44 mt-10 bg-[#1D293A] flex flex-col justify-center items-center">
-      <div className="flex gap-x-4">
-        <a className="w-12  h-12 flex justify-start items-center gap-x-2" href="mailto:redwantapu1234@gmail.com">
-          <img src={Gmail} className="w-12 h-12" alt="Gmail Logo" />
-        </a>
-        <a className="flex gap-x-1" href="https://github.com/RedwanAhmedTapu">
-          <div className="w-12 h-12 text-white">
-            <AiFillGithub className="w-12 h-12 " />
-          </div>
-        </a>
-        <a className="flex gap-x-1" href="https://www.linkedin.com/in/redwan-tapu">
-          <div className="w-12 h-12 text-blue-600">
-            <AiFillLinkedin className="w-12 h-12 " />
-          </div>
-        </a>
-        <a className="flex gap-x-1" href="https://www.facebook.com/profile.php?id=100009283561246">
-          <div className="w-12 h-12 text-blue-600">
-            <AiFillFacebook className="w-12 h-12 " />
-          </div>
-        </a>
+    <footer className="w-full py-12 bg-gray-900 border-t border-gray-800">
+      <div className="container mx-auto px-4">
+        {/* Social Links */}
+        <div className="flex justify-center gap-6 mb-6">
+          <a
+            href="mailto:redwantapu1234@gmail.com"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-green-400 hover:text-green-300 transition-colors duration-300"
+            aria-label="Email"
+          >
+            <HiMail className="text-2xl" />
+          </a>
+          
+          <a
+            href="https://github.com/RedwanAhmedTapu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-white hover:text-gray-300 transition-colors duration-300"
+            aria-label="GitHub"
+          >
+            <AiFillGithub className="text-2xl" />
+          </a>
+          
+          <a
+            href="https://www.linkedin.com/in/redwan-tapu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-blue-400 hover:text-blue-300 transition-colors duration-300"
+            aria-label="LinkedIn"
+          >
+            <AiFillLinkedin className="text-2xl" />
+          </a>
+          
+          <a
+            href="https://www.facebook.com/profile.php?id=100009283561246"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-blue-500 hover:text-blue-400 transition-colors duration-300"
+            aria-label="Facebook"
+          >
+            <AiFillFacebook className="text-2xl" />
+          </a>
+        </div>
+
+        {/* Copyright */}
+        <div className="text-center text-gray-400">
+          <p className="text-sm md:text-base">
+            &copy; {currentYear} {name}. All rights reserved.
+          </p>
+          <p className="text-xs mt-1 text-gray-500">
+            Crafted with passion and React
+          </p>
+        </div>
       </div>
-      <div className="text-white mt-2">
-        &copy; {currentYear} - {name}
-      </div>
-    </div>
+    </footer>
   );
 };
 
