@@ -33,7 +33,7 @@ const Section = () => {
 
         <div className="flex flex-wrap gap-4">
           <a
-            href="https://drive.google.com/file/d/1aDj9oaWc6w53bdl3D1www3esGpDplmrg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BW9wkhtW5naiTX73pIKauNzQRcwrgCGl/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-medium rounded-lg transition-colors duration-300"
