@@ -9,17 +9,17 @@ const Education = () => {
   // Define education data
   const educationData = [
     {
-      date: "2016 - 2017",
+      date: "2015 - 2017",
       title: "SSC",
-      institution: "Ghoraghal Pilot High School, Bangladesh",
+      institution: "United Islamia Govt High School, Madaripur",
     },
     {
       date: "2017 - 2019",
       title: "HSC",
-      institution: "Narsingdi United College, Bangladesh",
+      institution: "Madaripur Govt College, Madaripur ",
     },
     {
-      date: "2020 - present",
+      date: "2020 - 2023",
       title: "BSC In CSE",
       institution: "Faridpur Engineering College (Affiliated to Dhaka University)",
     },

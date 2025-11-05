@@ -7,8 +7,8 @@ const projectsData = [
   {
     name: "Weather Pattern Clustering",
     imageSrc: WeatherImage, 
-    liveLink: "https://github.com/RedwanAhmedTapu/weather-analysis/blob/main/weather_analysis.ipynb", 
-    githubLink: "https://github.com/RedwanAhmedTapu/weather-analysis", 
+    liveLink: "https://github.com/sohelcse07/Weather-Analysis/blob/main/weather_analysis.ipynb", 
+    githubLink: "https://github.com/sohelcse07/weather-analysis", 
     description:
       "Built a full-stack data pipeline to fetch and simulate weather data. Applied PCA and K-Means clustering to identify distinct weather patterns with actionable insights.",
     technologies: ["Python", "Pandas", "Scikit-learn", "Open-Meteo API", "Matplotlib"],
@@ -17,8 +17,8 @@ const projectsData = [
   {
     name: "Customer Chat Analytics",
     imageSrc: ChatAnalyticsImage, 
-    liveLink: "https://github.com/RedwanAhmedTapu/chatbot-data-analysis/blob/main/notebook/chat_bot_data_analysis.ipynb", 
-    githubLink: "https://github.com/RedwanAhmedTapu/chatbot-data-analysis/tree/main", 
+    liveLink: "https://github.com/sohelcse07/Chat_Bot_Data_Analysis/blob/main/chat_bot_data_analysis.ipynb", 
+    githubLink: "https://github.com/sohelcse07/chatbot-data-analysis/tree/main", 
     description:
       "Analysis pipeline processing chatbot messages to track product demand and customer behavior, enabling targeted marketing strategies.",
     technologies: ["Python", "Pandas", "Scikit-learn", "Seaborn", "Matplotlib"],

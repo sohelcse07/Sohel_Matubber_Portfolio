@@ -1,4 +1,4 @@
-import MyImage from "../imgs/portImg.png";
+import MyImage from "../imgs/Me.png";
 
 const About = () => {
   return (
@@ -17,22 +17,20 @@ const About = () => {
           <img
             src={MyImage}
             alt="My Profile"
-            className="w-40 h-40 md:w-52 md:h-52 lg:w-60 lg:h-60 rounded-full object-cover border-4 border-[#00CF5D] shadow-lg"
+            className="w-40 h-40 md:w-52 md:h-52 lg:w-60 lg:h-60 rounded-full object-contain border-4 border-[#00CF5D] shadow-lg"
           />
         </div>
 
         {/* Text Content */}
         <div className="text-center lg:text-left max-w-2xl">
           <h1 className="text-2xl md:text-3xl font-bold text-white">
-            Redwan Ahmed Tapu
+           Sohel Matubber
           </h1>
           <h2 className="text-xl md:text-2xl text-[#00CF5D] mt-2 mb-4">
-            Data Scientist
+            B.Sc in CSE
           </h2>
           <p className="text-white text-sm md:text-lg leading-relaxed">
-            Hello! I am a passionate data scientist with expertise in data analysis,
-            machine learning, and AI. I thrive on extracting insights from data to drive
-            impactful decisions and innovative solutions.
+            Hello! I’m a passionate Computer Science Engineer with a strong interest in data analysis, automation, and AI. I love solving real-world problems using data-driven insights and building smart systems that enhance efficiency and innovation.
           </p>
         </div>
       </div>

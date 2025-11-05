@@ -93,9 +93,9 @@ const Contact = () => {
         <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
           <div className="text-white">
             <h4 className="text-3xl mb-4 text-teal-600 font-semibold">Contact Information</h4>
-            <p className="mb-2">Email: redwantapu1234@gmail.com</p>
-            <p className="mb-2">Phone: (+880) 195-195-9919</p>
-            <p>Address: Bacchu Miya Sarak, Chanmari, Faridpur BD</p>
+            <p className="mb-2">Email: sohelmatubber4@gmail.com</p>
+            <p className="mb-2">Phone: (+880) 173-530-2123</p>
+            <p>Address: Madaripur Sadar, Madaripur, Dhaka BD</p>
           </div>
         </div>
       </div>

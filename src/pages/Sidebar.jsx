@@ -79,7 +79,7 @@ const Sidebar = () => {
             className="text-3xl font-bold text-green-400 cursor-pointer"
           >
             <Link to="home" smooth duration={300}>
-              R.
+              S.
             </Link>
           </motion.div>
 

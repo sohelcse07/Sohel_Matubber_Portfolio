@@ -1,9 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import MyImage from "../imgs/portImg.png";
+import MyImage from "../imgs/Me.png";
 import { AiFillGithub } from "react-icons/ai";
 import { FaFileDownload } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
+import CV_Resume from "../assets/Sohel Matubber-Resume.pdf";
 
 const Section = () => {
   return (
@@ -11,13 +12,13 @@ const Section = () => {
       {/* Text Content */}
      <div className="w-full md:w-1/2 flex flex-col justify-center items-start space-y-6 mb-12 md:mb-0">
   <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-    Hi, I'm <span className="text-green-400">Redwan</span>
+    Hi, I'm <span className="text-green-400">Sohel</span>
   </h1>
 
   <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-green-300">
     <Typewriter
       options={{
-        strings: ["Data Scientist", "AI Enthusiast", "ML Engineer"],
+        strings: ["B.Sc in CSE", "Data Analyst", "Automation Enthusiast"],
         autoStart: true,
         loop: true,
       }}
@@ -25,15 +26,12 @@ const Section = () => {
   </h2>
 
   <p className="text-lg text-gray-300 max-w-lg">
-    Passionate and analytical Data Scientist with a strong foundation in machine
-    learning, statistics, and data visualization. Committed to turning complex
-    data into actionable insights and building intelligent systems that solve
-    real-world problems.
+   Analytical Engineer skilled in Python and data analysis. Familiar with Power BI and automation tools, with a growing interest in building data-driven solutions that enhance efficiency and service excellence.
   </p>
 
         <div className="flex flex-wrap gap-4">
           <a
-            href="https://drive.google.com/file/d/1BW9wkhtW5naiTX73pIKauNzQRcwrgCGl/view?usp=sharing"
+            href={CV_Resume}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-medium rounded-lg transition-colors duration-300"
@@ -43,7 +41,7 @@ const Section = () => {
           </a>
 
           <a
-            href="https://github.com/RedwanAhmedTapu"
+            href="https://github.com/sohelcse07"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-gray-700 hover:bg-gray-600 text-white font-medium rounded-lg transition-colors duration-300"
@@ -54,11 +52,11 @@ const Section = () => {
         </div>
 
         <a
-          href="mailto:redwantapu1234@gmail.com"
+          href="mailto:sohelmatubber4@gmail.com"
           className="flex items-center gap-2 text-lg text-gray-300 hover:text-white transition-colors duration-300"
         >
           <HiMail className="text-2xl text-green-400" />
-          redwantapu1234@gmail.com
+          sohelmatubber4@gmail.com
         </a>
       </div>
 
@@ -67,8 +65,8 @@ const Section = () => {
         <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full border-4 border-green-400 p-2 shadow-lg">
           <img
             src={MyImage}
-            alt="Redwan Ahmed"
-            className="w-full h-full rounded-full object-cover"
+            alt="Sohel"
+            className="w-full h-full rounded-full object-contain"
           />
         </div>
       </div>

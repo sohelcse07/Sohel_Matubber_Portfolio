@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
-import { FaPython, FaJs, FaGitAlt, FaDocker } from "react-icons/fa";
+import { FaPython, FaJs, FaGitAlt, FaReact } from "react-icons/fa";
 import { SiPandas, SiNumpy, SiScikitlearn, SiTensorflow , SiOpenai, SiPostgresql, SiMongodb, SiApacheairflow, SiAstro, SiGithubactions, SiJupyter, SiPowerbi } from "react-icons/si";
 import { TbBrandPython } from "react-icons/tb";
+import { SiCplusplus } from "react-icons/si";
+
 
 const Tech = () => {
   const skillCategories = [
@@ -10,8 +12,11 @@ const Tech = () => {
       icon: <TbBrandPython className="text-4xl" />,
       skills: [
         { name: "Python", level: "Advanced", icon: <FaPython />, 
-          details: ["Pandas", "NumPy", "Matplotlib", "Seaborn"] },
-        { name: "JavaScript", level: "Intermediate", icon: <FaJs /> }
+          details: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Django"] },
+           { name: "C++", level: "Intermediate", icon: <SiCplusplus />, 
+          details: ["OOP", "STL", "Data Structures", "Problem Solving"] },
+        { name: "JavaScript", level: "Advanced", icon: <FaJs />, 
+          details: ["React", "ES6+", "DOM Manipulation"] }
       ]
     },
     {
@@ -19,8 +24,7 @@ const Tech = () => {
       icon: <SiScikitlearn className="text-4xl" />,
       skills: [
         { name: "Scikit-learn", details: ["K-Means", "PCA", "Regression", "Classification"] },
-        { name: "Hugging Face", details: ["BERT", "Transformers", "Fine-tuning"] },
-        { name: "OpenAI API", details: ["GPT models", "Embeddings", "LLM applications"] }
+        { name: "Hugging Face", details: ["BERT", "Transformers", "Fine-tuning"] }
       ]
     },
     {
@@ -41,13 +45,12 @@ const Tech = () => {
       ]
     },
     {
-      name: "DevOps & MLOps",
-      icon: <FaDocker className="text-4xl" />,
+      name: "Frontend Development",
+      icon: <FaReact className="text-4xl" />,
       skills: [
-        { name: "Airflow", details: ["Workflow automation", "ETL pipelines"] },
-        { name: "Astro", details: ["Modern data orchestration"] },
-        { name: "Docker", details: ["Containerization for ML models"] },
-        { name: "CI/CD", details: ["GitHub Actions"] }
+        { name: "React", details: ["Component-based UI", "State Management", "Hooks"] },
+        { name: "JavaScript", details: ["ES6+", "DOM Manipulation", "API Integration"] },
+        { name: "HTML & CSS", details: ["Responsive Design", "Tailwind CSS", "Animations"] }
       ]
     },
     {
@@ -62,7 +65,7 @@ const Tech = () => {
   ];
 
   return (
-    <section id="skills" className="w-full min-h-screen py-20 px-4 sm:px-8 bg-gradient-to-br from-gray-900 to-gray-800">
+    <section id="tech" className="w-full min-h-screen py-20 px-4 sm:px-8 bg-gradient-to-br from-gray-900 to-gray-800">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <motion.div

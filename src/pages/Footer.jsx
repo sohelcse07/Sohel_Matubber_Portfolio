@@ -3,7 +3,7 @@ import { HiMail } from "react-icons/hi";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const name = "Redwan Ahmed";
+  const name = "Sohel Matubber";
 
   return (
     <footer className="w-full py-12 bg-gray-900 border-t border-gray-800">
@@ -11,7 +11,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-6">
           <a
-            href="mailto:redwantapu1234@gmail.com"
+            href="mailto:sohelmatubber4@gmail.com"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-green-400 hover:text-green-300 transition-colors duration-300"
             aria-label="Email"
           >
@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
           
           <a
-            href="https://github.com/RedwanAhmedTapu"
+            href="https://github.com/sohelcse07"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-white hover:text-gray-300 transition-colors duration-300"
@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
           
           <a
-            href="https://www.linkedin.com/in/redwan-tapu"
+            href="https://www.linkedin.com/in/sohel-matubber-0b07aa289/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-blue-400 hover:text-blue-300 transition-colors duration-300"
@@ -39,7 +39,7 @@ const Footer = () => {
           </a>
           
           <a
-            href="https://www.facebook.com/profile.php?id=100009283561246"
+            href="https://www.facebook.com/share/1CyNpgZszt/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 text-blue-500 hover:text-blue-400 transition-colors duration-300"
