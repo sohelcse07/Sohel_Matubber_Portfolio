@@ -20,7 +20,7 @@ const Education = () => {
     },
     {
       date: "2020 - 2023",
-      title: "BSC In CSE",
+      title: "BSC in CSE",
       institution: "Faridpur Engineering College (Affiliated to Dhaka University)",
     },
   ];

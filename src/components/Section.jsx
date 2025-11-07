@@ -4,7 +4,7 @@ import MyImage from "../imgs/Me.png";
 import { AiFillGithub } from "react-icons/ai";
 import { FaFileDownload } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
-import CV_Resume from "../assets/Sohel Matubber-Resume.pdf";
+import CV_Resume from "../assets/Sohel-Matubber-Resume.pdf";
 
 const Section = () => {
   return (
